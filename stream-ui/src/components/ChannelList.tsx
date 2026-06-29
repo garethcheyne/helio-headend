@@ -16,6 +16,7 @@ const CHANNELS: Channel[] = [
   { number: 20, name: 'TVNZ 1 +1',     slug: 'tvnz1plus1',   mux: '578 MHz', hlsAvailable: false, hlsUrl: `${HLS_BASE}/tvnz1plus1/index.m3u8` },
   { number: 22, name: 'TVNZ 2 +1',     slug: 'tvnz2plus1',   mux: '578 MHz', hlsAvailable: false, hlsUrl: `${HLS_BASE}/tvnz2plus1/index.m3u8` },
   { number: 23, name: 'TVNZ DUKE+1',   slug: 'tvnzdukeplus1', mux: '578 MHz', hlsAvailable: false, hlsUrl: `${HLS_BASE}/tvnzdukeplus1/index.m3u8` },
+  { number: 50, name: 'ABC Kids',       slug: '',             mux: 'Internet', hlsAvailable: false, hlsUrl: 'https://c.mjh.nz/abc-kids.m3u8' },
 ]
 
 export function ChannelList() {
