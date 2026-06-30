@@ -21,6 +21,8 @@ fi
 
 # Pull latest if this is a git checkout.
 if git -C "$APP_DIR" rev-parse --git-dir >/dev/null 2>&1; then
+    # Discard local churn (e.g. an npm-modified lockfile) so the pull stays clean.
+    git -C "$APP_DIR" checkout -- package-lock.json 2>/dev/null || true
     git -C "$APP_DIR" pull --ff-only || echo "   (git pull skipped)"
 fi
 
@@ -33,7 +35,14 @@ while IFS= read -r line; do
     esac
 done < "$ENV_FILE"
 
-echo "==> npm ci";    npm ci
+# Prefer a clean reproducible install; fall back to npm install when the lockfile
+# drifts across platforms (e.g. optional native/WASM deps differ on Linux).
+echo "==> installing dependencies"
+if ! npm ci --no-audit --no-fund 2>/dev/null; then
+    echo "   npm ci couldn't use the lockfile — falling back to npm install"
+    npm install --no-audit --no-fund
+fi
+
 echo "==> next build"; npm run build
 
 # The service runs as 'helio' — make sure it owns what it serves.
