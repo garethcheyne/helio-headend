@@ -5,11 +5,14 @@ behind nginx (TLS), internet-facing on your domain. The app reaches TVHeadend
 (`.120`) and the packager (`.121`) server-side over the LAN.
 
 ```
-Internet ──HTTPS──> nginx (.122 :443, your domain)
+Internet ──HTTPS :8080──> nginx (.122, your domain)
                       ├── /hls/  → /var/www/html/hls   (DVB-T segments, same origin)
                       └── /      → 127.0.0.1:3000       (Next.js app)
                                      └── server-side → TVHeadend .120 / Packager .121 (LAN)
 ```
+
+Everything is served on a single HTTPS port (`:8080`) — no 80/443. Because of
+that, TLS certs use a **DNS-01** challenge (see step 5).
 
 ## First deploy
 
@@ -36,15 +39,22 @@ Below assumes `/opt/helio-headend` — adjust if you cloned elsewhere.
    sudo ./deploy/deploy.sh
    curl -s localhost:3000/ -o /dev/null -w '%{http_code}\n'   # 200
    ```
-5. **nginx + TLS** — set your `server_name`, the **LAN range** for the admin
-   allowlist, then get a cert:
+5. **TLS cert (DNS-01)** — there's no port 80/443, so use a DNS challenge. Add the
+   `_acme-challenge` TXT record it prints (or use a DNS plugin for auto-renew):
    ```bash
+   sudo certbot certonly --manual --preferred-challenges dns -d stream.err403.com
+   # (Cloudflare etc.: apt install python3-certbot-dns-cloudflare and use --dns-cloudflare)
+   ```
+6. **nginx (single HTTPS port 8080)** — disable the old plain-HTTP :8080 HLS
+   site, install this one, set `server_name` + cert paths + LAN range:
+   ```bash
+   sudo rm -f /etc/nginx/sites-enabled/hls          # old plain :8080 HLS server
    sudo cp ./deploy/nginx-stream-ui.conf /etc/nginx/sites-available/helio-stream-ui
-   sudo -e /etc/nginx/sites-available/helio-stream-ui     # server_name + "allow 192.168.0.0/24;"
+   sudo -e /etc/nginx/sites-available/helio-stream-ui   # server_name, ssl_certificate*, allow CIDR
    sudo ln -s /etc/nginx/sites-available/helio-stream-ui /etc/nginx/sites-enabled/
-   sudo certbot --nginx -d tv.example.com
    sudo nginx -t && sudo systemctl reload nginx
    ```
+   Open it at `https://stream.err403.com:8080/`. Forward **8080** on the router → `.122`.
 
 ## Seed data
 
@@ -94,9 +104,9 @@ curl -s https://<your-domain>/api/channels | head -c 300   # DVB urls are /hls/.
 
 ## Notes / cautions (internet-facing)
 
-- **Public surface = `/`, `/api/channels`, `/api/playlist.m3u8`, `/hls/` only.**
-  TVHeadend `:9981`/`:9982` and the packager stay LAN-only (the app calls them
-  server-side). Don't add nginx proxies for them; firewall those ports off the WAN.
+- **Forward only `:8080` to `.122`.** That's the single public port. TVHeadend
+  `:9981`/`:9982`, the packager, and the app's own `:3000` stay LAN-only (the app
+  calls upstreams server-side). Don't forward or proxy those off the WAN.
 - **Admin is LAN-only.** `/login`, `/admin`, `/api/auth`, `/api/streams`,
   `/api/health`, `/api/tuner` are restricted to the LAN range in the nginx config
   — public hits get 403. Set the correct `allow` CIDR for your network, and still
