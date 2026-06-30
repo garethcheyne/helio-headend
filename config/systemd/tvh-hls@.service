@@ -1,19 +1,10 @@
 [Unit]
 Description=TVHeadend HLS stream for %i
-After=tvheadend.service
-Requires=tvheadend.service
 
 [Service]
 EnvironmentFile=/etc/tvh-hls/%i.conf
-ExecStartPre=/bin/mkdir -p /var/www/html/hls/%i
-ExecStart=/usr/bin/ffmpeg -re -i "${SOURCE_URL}" \
-    -c copy \
-    -f hls \
-    -hls_time 4 \
-    -hls_list_size 6 \
-    -hls_flags delete_segments+append_list \
-    -hls_segment_filename "/var/www/html/hls/%i/seg%%03d.ts" \
-    /var/www/html/hls/%i/index.m3u8
+ExecStartPre=/bin/mkdir -p /srv/hls/%i
+ExecStart=/usr/bin/ffmpeg -re -i "${SOURCE_URL}"     -c copy     -f hls     -hls_time 4     -hls_list_size 6     -hls_flags delete_segments+append_list     -hls_segment_filename "/srv/hls/%i/seg%%03d.ts"     /srv/hls/%i/index.m3u8
 Restart=always
 RestartSec=5
 
