@@ -24,9 +24,14 @@ if git -C "$APP_DIR" rev-parse --git-dir >/dev/null 2>&1; then
     git -C "$APP_DIR" pull --ff-only || echo "   (git pull skipped)"
 fi
 
-# NEXT_PUBLIC_* must be present during the build — source the env file.
-set -a; # shellcheck disable=SC1090
-source "$ENV_FILE"; set +a
+# Only NEXT_PUBLIC_* vars are needed at build time. Export them WITHOUT sourcing
+# the file as shell — values contain spaces / | / : that aren't shell-safe.
+# (All runtime vars are loaded by systemd's EnvironmentFile, not here.)
+while IFS= read -r line; do
+    case "$line" in
+        NEXT_PUBLIC_*=*) export "${line%%=*}=${line#*=}" ;;
+    esac
+done < "$ENV_FILE"
 
 echo "==> npm ci";    npm ci
 echo "==> next build"; npm run build
