@@ -13,13 +13,19 @@ Internet ──HTTPS──> nginx (.122 :443, your domain)
 
 ## First deploy
 
-1. **Get the code** onto the box at `/opt/helio/stream-ui` (git clone or rsync the
-   `stream-ui/` dir).
+The scripts auto-detect their own location, so you can clone the repo anywhere.
+Below assumes `/opt/helio-headend` — adjust if you cloned elsewhere.
+
+1. **Get the code** — clone the repo on the box:
+   ```bash
+   sudo git clone https://github.com/garethcheyne/helio-headend /opt/helio-headend
+   cd /opt/helio-headend/stream-ui
+   ```
 2. **Provision** — installs Node 24, nginx, certbot; creates the `helio` user,
    directories, the systemd unit, and seeds `/etc/helio/stream-ui.env` with
    generated `AUTH_SECRET` + `STREAM_CHECK_TOKEN` (idempotent):
    ```bash
-   sudo /opt/helio/stream-ui/deploy/setup.sh
+   sudo ./deploy/setup.sh
    ```
 3. **Finish the env** — set `ADMIN_PASSWORD` and `PUBLIC_HLS_URL=https://<domain>`:
    ```bash
@@ -27,13 +33,13 @@ Internet ──HTTPS──> nginx (.122 :443, your domain)
    ```
 4. **Build + start** (sources the env so the build picks up `NEXT_PUBLIC_*`):
    ```bash
-   sudo /opt/helio/stream-ui/deploy/deploy.sh
+   sudo ./deploy/deploy.sh
    curl -s localhost:3000/ -o /dev/null -w '%{http_code}\n'   # 200
    ```
 5. **nginx + TLS** — set your `server_name`, the **LAN range** for the admin
    allowlist, then get a cert:
    ```bash
-   sudo cp /opt/helio/stream-ui/deploy/nginx-stream-ui.conf /etc/nginx/sites-available/helio-stream-ui
+   sudo cp ./deploy/nginx-stream-ui.conf /etc/nginx/sites-available/helio-stream-ui
    sudo -e /etc/nginx/sites-available/helio-stream-ui     # server_name + "allow 192.168.0.0/24;"
    sudo ln -s /etc/nginx/sites-available/helio-stream-ui /etc/nginx/sites-enabled/
    sudo certbot --nginx -d tv.example.com
