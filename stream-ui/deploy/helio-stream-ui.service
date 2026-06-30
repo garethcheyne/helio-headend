@@ -1,0 +1,30 @@
+# /etc/systemd/system/helio-stream-ui.service
+# Runs the Next.js dashboard (next start) on the .122 container.
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now helio-stream-ui
+
+[Unit]
+Description=Helio Headend stream-ui (Next.js)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=helio
+Group=helio
+WorkingDirectory=/opt/helio/stream-ui
+EnvironmentFile=/etc/helio/stream-ui.env
+# node:sqlite is stable in Node 24 — silence the experimental warning in logs.
+Environment=NODE_OPTIONS=--disable-warning=ExperimentalWarning
+# Bind to localhost only; nginx terminates TLS and proxies to it.
+ExecStart=/usr/bin/npm run start -- -H 127.0.0.1 -p 3000
+Restart=always
+RestartSec=5
+# Hardening
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+ReadWritePaths=/var/lib/helio/stream-ui
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,1178 @@
+[
+  {
+    "name": "8 Out of 10 Cats",
+    "number": 100,
+    "sourceUrl": "https://amg00627-amg00627c37-samsung-nz-4295.playouts.now.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Action Hollywood Movies",
+    "number": 101,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Baywatch",
+    "number": 102,
+    "sourceUrl": "https://amg00145-fremantlemedian-baywatch-samsungnz-5bfqe.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Bondi Vet",
+    "number": 103,
+    "sourceUrl": "https://wtfn-bondivet-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Breaking News by LeadStory",
+    "number": 104,
+    "sourceUrl": "https://amg02703-leadstory-leadstory-samsungnz-vc7nn.amagi.tv/playlist/amg02703-leadstory-leadstory-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Deal or No Deal",
+    "number": 105,
+    "sourceUrl": "https://amg00627-amg00627c21-samsung-nz-3876.playouts.now.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Deal or No Deal",
+    "number": 106,
+    "sourceUrl": "https://amg00627-banijaygroup-dealornodeal-samsungnz-swf41.amagi.tv/playlist/amg00627-banijaygroup-dealornodeal-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Don't Tell The Bride",
+    "number": 107,
+    "sourceUrl": "https://amg00426-lds-amg00426c15-samsung-nz-3685.playouts.now.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Drybar Comedy",
+    "number": 108,
+    "sourceUrl": "https://drybar-drybarcomedy-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Fear Factor",
+    "number": 111,
+    "sourceUrl": "https://amg00627-banijaygroup-fearfactor-samsungnz-zhrro.amagi.tv/playlist/amg00627-banijaygroup-fearfactor-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Four in a Bed",
+    "number": 112,
+    "sourceUrl": "https://all3media-four-in-a-bed-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "France 24",
+    "number": 113,
+    "sourceUrl": "https://amg00106-amg00106c1-samsung-nz-4151.playouts.now.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Fuel TV",
+    "number": 114,
+    "sourceUrl": "https://amg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv/playlist/amg01074-fueltv-fueltvnz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "GB News",
+    "number": 115,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Ghost Hunters",
+    "number": 116,
+    "sourceUrl": "https://amg00353-amg00353c30-samsung-nz-3439.playouts.now.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Gusto TV",
+    "number": 117,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Hardcore Pawn",
+    "number": 118,
+    "sourceUrl": "https://amg00627-banijay-amg00627c8-samsung-nz-1828.playouts.now.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Haunt TV",
+    "number": 119,
+    "sourceUrl": "https://amg01446-blueantmediacan-haunttvaus-samsungnz-xo5xf.amagi.tv/playlist/amg01446-blueantmediacan-haunttvaus-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Highway Thru Hell",
+    "number": 120,
+    "sourceUrl": "https://amg00627-amg00627c15-samsung-nz-2900.playouts.now.amagi.tv/playlist/amg00627-banijayfast-highwaythruhell-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "History and Warfare Now",
+    "number": 121,
+    "sourceUrl": "https://amg00376-magellan-amg00376c19-samsung-nz-1735.playouts.now.amagi.tv/playlist/amg00376-magellantv-historyandwarfarenowaunzin-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "History Hit",
+    "number": 122,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timelinenz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Homeful",
+    "number": 123,
+    "sourceUrl": "https://amg00090-blueantcanada-amg00090c4-samsung-nz-820.playouts.now.amagi.tv/playlist/amg00090-blueantfast-homefulworldwide-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Homes Under The Hammer",
+    "number": 124,
+    "sourceUrl": "https://all3media-homes-under-the-hammer-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Horse and Country Free",
+    "number": 125,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00810-horsecountrytvl-hncfreenz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "INFAST",
+    "number": 126,
+    "sourceUrl": "https://amg00861-terninternation-lifestyle-samsungnz-e3zqy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Inside Outside",
+    "number": 127,
+    "sourceUrl": "https://all3media-international-insideoutside-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Kartoon Channel",
+    "number": 128,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Life Downunder",
+    "number": 129,
+    "sourceUrl": "https://wtfn-lifedownunder-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Made in Hollywood",
+    "number": 130,
+    "sourceUrl": "https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "MagellanTV Now",
+    "number": 131,
+    "sourceUrl": "https://amg00376-magellan-amg00376c5-samsung-nz-1714.playouts.now.amagi.tv/playlist/amg00376-magellantv-magellantvnowww-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Mcleod's Daughters",
+    "number": 132,
+    "sourceUrl": "https://amg00627-amg00627c5-samsung-nz-2807.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mcleodsdaughters-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "MovieSphere AU",
+    "number": 134,
+    "sourceUrl": "https://amg00353-amg00353c32-samsung-nz-3588.playouts.now.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "MTRSPT 1",
+    "number": 135,
+    "sourceUrl": "https://amg02873-kravemedia-mtrspt1-samsungnz-k70ln.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Mythbusters",
+    "number": 136,
+    "sourceUrl": "https://amg00627-banijay-amg00627c14-samsung-nz-2342.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mythbusters-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "NatureTime",
+    "number": 137,
+    "sourceUrl": "https://amg00090-blueantllc-lovenatureau-samsungnz-r3iaz.amagi.tv/playlist/amg00090-blueantllc-lovenatureau-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Nosey",
+    "number": 138,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00514-noseybaxterllc-noseyintlnz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Now 70's",
+    "number": 139,
+    "sourceUrl": "https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Now 80's",
+    "number": 140,
+    "sourceUrl": "https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "NOW Rock",
+    "number": 141,
+    "sourceUrl": "https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Outdoor Channel",
+    "number": 142,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "PBS Antiques Road Trip",
+    "number": 143,
+    "sourceUrl": "https://amg02333-pbs-amg02333c5-samsung-nz-2440.playouts.now.amagi.tv/PBSD-AntiquesRoadTripSF-samsung/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "PBS History",
+    "number": 144,
+    "sourceUrl": "https://amg02333-pbs-amg02333c1-samsung-nz-1254.playouts.now.amagi.tv/playlist/amg02333-pbsdistributionfast-pbshistory-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Pet Club TV",
+    "number": 145,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "PowerNation",
+    "number": 146,
+    "sourceUrl": "https://amg01258-raycomsports-powernationnz-samsungnz-q92ks.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Pulse TV",
+    "number": 147,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-pulse-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Racer Network",
+    "number": 148,
+    "sourceUrl": "https://amg00378-mavtv-amg00378c2-samsung-nz-1791.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "RCM",
+    "number": 149,
+    "sourceUrl": "https://amg01076-lightningintern-rialto-samsungnz-03h40.amagi.tv/playlist/amg01076-lightningintern-rialto-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Real Crime",
+    "number": 150,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realcrimebetanz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Real Wild",
+    "number": 151,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwildnz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Ryan and Friends",
+    "number": 152,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00286-pocketwatch-ryanandfriends-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Surf Cinema",
+    "number": 153,
+    "sourceUrl": "https://amg13231-actve-amg13231c4-samsung-nz-3093.playouts.now.amagi.tv/playlist/amg13231-actvefast-surfer-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Survivor",
+    "number": 154,
+    "sourceUrl": "https://amg00627-amg00627c16-samsung-nz-2811.playouts.now.amagi.tv/playlist/amg00627-banijayfast-survivor-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "The Chat Show Channel",
+    "number": 156,
+    "sourceUrl": "https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Trace Sports Stars",
+    "number": 157,
+    "sourceUrl": "https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Trace Urban",
+    "number": 158,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "True Crime Now",
+    "number": 159,
+    "sourceUrl": "https://amg00376-magellan-amg00376c12-samsung-nz-1727.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowaunzin-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Undercover Boss",
+    "number": 160,
+    "sourceUrl": "https://all3media-international-undercoverboss-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Vevo 2K",
+    "number": 161,
+    "sourceUrl": "https://amg00056-vevotv-vevo2kau-samsungnz-tamaq.amagi.tv/playlist/amg00056-vevotv-vevo2kau-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Vevo 70s",
+    "number": 162,
+    "sourceUrl": "https://amg00056-vevotv-vevo70saunz-samsungnz-lmeak.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Vevo 80s",
+    "number": 163,
+    "sourceUrl": "https://amg00056-vevotv-vevo80saunz-samsungnz-96vhe.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Vevo 90s",
+    "number": 164,
+    "sourceUrl": "https://amg00056-vevotv-vevo90saunz-samsungnz-mpus0.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Vevo Country",
+    "number": 165,
+    "sourceUrl": "https://amg00056-vevotv-vevocountryau-samsungnz-kcm6r.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Vevo Pop",
+    "number": 166,
+    "sourceUrl": "https://amg00056-vevotv-vevopopau-samsungnz-wa3bw.amagi.tv/playlist/amg00056-vevotv-vevopopau-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Vevo Retro Rock",
+    "number": 167,
+    "sourceUrl": "https://amg00056-vevotv-vevoretrorockau-samsungnz-nog2o.amagi.tv/playlist/amg00056-vevotv-vevoretrorockau-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Wipeout Xtra",
+    "number": 168,
+    "sourceUrl": "https://amg00627-banijaygroup-wipeoutxtranz-samsungnz-j1dyx.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtranz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Wonder",
+    "number": 169,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Zoo Moo",
+    "number": 170,
+    "sourceUrl": "https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Zoo Moo",
+    "number": 171,
+    "sourceUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "NZ"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "2GB Sydney",
+    "number": 172,
+    "sourceUrl": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "3AW Melbourne",
+    "number": 173,
+    "sourceUrl": "https://3awlive.akamaized.net/hls/live/2032295/3AW/index.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "6PR Perth",
+    "number": 174,
+    "sourceUrl": "https://6prlive.akamaized.net/hls/live/2033806/6PR/index.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "10 Bold Adelaide",
+    "number": 178,
+    "sourceUrl": "https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "480p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC Entertains",
+    "number": 181,
+    "sourceUrl": "https://c.mjh.nz/abc-me.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC Kids",
+    "number": 182,
+    "sourceUrl": "https://c.mjh.nz/abc-kids.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC News",
+    "number": 183,
+    "sourceUrl": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC News",
+    "number": 184,
+    "sourceUrl": "https://c.mjh.nz/abc-news.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC TV ACT",
+    "number": 185,
+    "sourceUrl": "https://c.mjh.nz/abc-act.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC TV NSW",
+    "number": 186,
+    "sourceUrl": "https://c.mjh.nz/abc-nsw.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC TV NT",
+    "number": 187,
+    "sourceUrl": "https://c.mjh.nz/abc-nt.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC TV Plus",
+    "number": 188,
+    "sourceUrl": "https://c.mjh.nz/abc-tv-plus.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC TV QLD",
+    "number": 189,
+    "sourceUrl": "https://c.mjh.nz/abc-qld.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC TV SA",
+    "number": 190,
+    "sourceUrl": "https://c.mjh.nz/abc-sa.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC TV TAS",
+    "number": 191,
+    "sourceUrl": "https://c.mjh.nz/abc-tas.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC TV VIC",
+    "number": 192,
+    "sourceUrl": "https://c.mjh.nz/abc-vic.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ABC TV WA",
+    "number": 193,
+    "sourceUrl": "https://c.mjh.nz/abc-wa.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "ausbiz TV",
+    "number": 194,
+    "sourceUrl": "https://d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Bloomberg TV Australia",
+    "number": 195,
+    "sourceUrl": "https://bloomberg.com/media-manifest/streams/aus.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "C31 Melbourne",
+    "number": 196,
+    "sourceUrl": "https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "480p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Channel 44",
+    "number": 202,
+    "sourceUrl": "https://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "480p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Cricket Gold",
+    "number": 203,
+    "sourceUrl": "https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Expo Channel",
+    "number": 207,
+    "sourceUrl": "https://tvsnhlslivetest.akamaized.net/hls/live/2034711/EXPO-MSL4/master.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "360p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Sky News Extra 1",
+    "number": 211,
+    "sourceUrl": "https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "576p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Sky News Extra 2",
+    "number": 212,
+    "sourceUrl": "https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "576p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Sky News Extra 3",
+    "number": 213,
+    "sourceUrl": "https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "576p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Sky Racing 1",
+    "number": 215,
+    "sourceUrl": "https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Sky Racing 2",
+    "number": 217,
+    "sourceUrl": "https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "720p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "TVSN",
+    "number": 220,
+    "sourceUrl": "https://tvsnhlslivetest.akamaized.net/hls/live/2034711/TVSN-MSL4/master.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  },
+  {
+    "name": "TVSN Beauty",
+    "number": 221,
+    "sourceUrl": "https://live-tvsn.simplestreamcdn.com/live12/tvsnbeauty/bitrate1.isml/.m3u8",
+    "logoUrl": null,
+    "type": "hls",
+    "quality": "1080p",
+    "regions": [
+      "AU"
+    ],
+    "enabled": true
+  }
+]

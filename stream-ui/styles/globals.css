@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 180 100% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 180 100% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 180 100% 10%;
+    --primary: 178 98% 20%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 178 20% 95%;
+    --secondary-foreground: 180 100% 15%;
+    --muted: 178 20% 96%;
+    --muted-foreground: 180 30% 35%;
+    --accent: 178 30% 90%;
+    --accent-foreground: 180 100% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --success: 152 60% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 38 92% 12%;
+    --border: 178 20% 85%;
+    --input: 178 20% 85%;
+    --ring: 178 98% 20%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 180 100% 6%;
+    --foreground: 178 15% 85%;
+    --card: 178 100% 10%;
+    --card-foreground: 178 15% 85%;
+    --popover: 178 100% 10%;
+    --popover-foreground: 178 15% 85%;
+    --primary: 178 80% 42%;
+    --primary-foreground: 180 100% 6%;
+    --secondary: 180 97% 14%;
+    --secondary-foreground: 178 15% 85%;
+    --muted: 180 97% 14%;
+    --muted-foreground: 178 10% 60%;
+    --accent: 179 100% 17%;
+    --accent-foreground: 178 15% 85%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --success: 152 55% 48%;
+    --success-foreground: 180 100% 6%;
+    --warning: 41 96% 56%;
+    --warning-foreground: 38 92% 12%;
+    --border: 180 60% 16%;
+    --input: 180 60% 16%;
+    --ring: 178 80% 42%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
